@@ -93,15 +93,18 @@ nav a {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #f5f5f5;
+	background-color: #7B7979;
   	color: #bdc3c7;
+}
+#gallery img {
+	border-bottom: 3px solid #575756;
 }
 
 #gallery li a p {
   margin: 1px 0 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #575756;
+  color: #FDFDFD;
 }
 
 /* Footer */
@@ -162,7 +165,7 @@ footer {
 /* Colors */
 
 body {
-	background-color: #D9D5D5;
+	background-image: url('../img/pattern.png');
 	color: #999;
 }
 
