@@ -35,10 +35,12 @@
 
   h1, h2 {
     text-align: left;
+
   }
   h2 {  
     position: relative;
     left: 25px;
+    max-width: 75%;
   }
 }
 

@@ -1,7 +1,13 @@
 /* General */
-
+html, body{
+	height: 100%;
+}
 body{
 	font-family: 'Kaushan Script', cursive;
+	/* Background pattern from subtlepatterns.com */
+	background-image: url('../img/pattern.png');
+	color: #999;
+	position: relative;
 }
 
 #wrapper {
@@ -83,7 +89,7 @@ nav a {
 
 /* Portfolio */
 
-#gallery {
+#gallery ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -109,12 +115,17 @@ nav a {
 
 /* Footer */
 
+#container {
+
+}
 footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
-	padding-top: 30px;
-	color: #575756;
+	color: #FDFDFD;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .social-icon {
@@ -165,7 +176,6 @@ footer {
 /* Colors */
 
 body {
-	background-image: url('../img/pattern.png');
 	color: #999;
 }
 
