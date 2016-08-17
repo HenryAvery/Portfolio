@@ -7,13 +7,13 @@ body{
 	/* Background pattern from subtlepatterns.com */
 	background-image: url('../img/pattern.png');
 	color: #999;
-	position: relative;
 }
 
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
+	min-height: 100%;
 }
 
 a {
@@ -88,6 +88,9 @@ nav a {
 }
 
 /* Portfolio */
+#gallery{
+	padding-bottom: 75px;
+}
 
 #gallery ul{
 	margin: 0;
@@ -115,17 +118,14 @@ nav a {
 
 /* Footer */
 
-#container {
-
-}
 footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	color: #FDFDFD;
-	position: absolute;
-	bottom: 0;
+	position: relative;
 	width: 100%;
+	margin-top: -75px;
 }
 
 .social-icon {
