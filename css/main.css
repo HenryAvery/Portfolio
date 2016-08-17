@@ -6,7 +6,6 @@ body{
 	font-family: 'Kaushan Script', cursive;
 	/* Background pattern from subtlepatterns.com */
 	background-image: url('../img/pattern.png');
-	color: #999;
 }
 
 #wrapper {
@@ -100,18 +99,18 @@ nav a {
 	width: 45%;
 	margin: 2.5%;
 	background-color: #7B7979;
-  	color: #bdc3c7;
-}
-#gallery img {
-	border-bottom: 3px solid #575756;
+  	color: #bdc3c7; 
+  	box-shadow: 3px 3px 3px #000;
 }
 
 #gallery li a p {
-  margin: 1px 0 0;
+  margin: 0;
   padding: 5%;
   font-size: 0.75em;
   color: #FDFDFD;
 }
+
+
 
 /* Footer */
 
