@@ -82,9 +82,9 @@
   header {
     border-bottom: 5px solid #575756;
     margin-bottom: 30px;
-
   }
 }
+
 /* IE svg scaling fix */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
