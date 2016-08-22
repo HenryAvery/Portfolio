@@ -117,6 +117,9 @@ nav a {
   text-align: center;
 }
 
+#gallery li:hover{
+	box-shadow: 0px 0px 10px #803815;
+}
 
 
 /* Footer */
@@ -183,12 +186,12 @@ body {
 }
 
 header {
-	background: #A7A5A5;
-	border-color: #7B7979;
+	background: #133253;
+	border-color: #011221;
 }
 
 nav {
-  background: #7B7979;
+  background: #011221;
 }
 
 h1,h2 {
@@ -205,6 +208,6 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-	color: #575756;
-	text-shadow: 2px 2px 10px #A7A5A5;
+	color: #803815;
+	text-shadow: 2px 2px 10px #000;
 }
