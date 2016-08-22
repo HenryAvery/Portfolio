@@ -118,7 +118,7 @@ nav a {
 }
 
 #gallery li:hover{
-	box-shadow: 0px 0px 10px #803815;
+	box-shadow: 2px 2px 10px #803815,-2px -2px 10px #803815;
 }
 
 
@@ -195,7 +195,7 @@ nav {
 }
 
 h1,h2 {
-	color: #FDFDFD;
+	color: #FFFFFF;
 	text-shadow: 1px 1px 5px #000;
 }
 
@@ -208,6 +208,6 @@ nav a, nav a:visited {
 }
 
 nav a.selected, nav a:hover {
-	color: #803815;
-	text-shadow: 2px 2px 10px #000;
+	color: #BD4800;
+	text-shadow: 0px 0px 10px #000;
 }
