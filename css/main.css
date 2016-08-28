@@ -104,7 +104,7 @@ nav a {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	
+	background-color: #ccc;
   	color: #bdc3c7; 
   	box-shadow: 3px 3px 10px #000;
   	border-radius: 4%;
@@ -113,8 +113,8 @@ nav a {
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 1em;
-  color: #BD4800;
+  font-size: 0.75em;
+  color: #000;
   text-align: center;
 }
 
