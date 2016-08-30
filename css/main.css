@@ -132,13 +132,13 @@ footer {
 	color: #FDFDFD;
 	position: relative;
 	width: 100%;
-	margin-top: -90px;
+	margin-top: -70px;
 }
 
 .social-icon {
 	width: 20px;
 	height: 20px;
-	margin: 0 5px;
+	margin: 10px 5px 0;
 }
 
 /* About */
