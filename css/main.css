@@ -9,7 +9,7 @@ body{
 }
 
 #wrapper {
-	max-width: 1140px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 5%;
 	min-height: 100%;
@@ -94,7 +94,6 @@ nav a {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-
 }
 #gallery img{ 
 	border-top-right-radius: 4%;
@@ -113,7 +112,7 @@ nav a {
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
+  font-size: 0.8em;
   color: #000;
   text-align: center;
 }
@@ -130,9 +129,14 @@ footer {
 	text-align: center;
 	clear: both;
 	color: #FDFDFD;
-	position: relative;
 	width: 100%;
-	margin-top: -70px;
+	margin: -70px 0 0;
+}
+footer p {
+	margin: 5px 0;
+}
+section{
+	float: left;
 }
 
 .social-icon {
@@ -142,7 +146,6 @@ footer {
 }
 
 /* About */
-
 .profile-photo {
   display: block;
   max-width: 150px;
@@ -183,7 +186,7 @@ footer {
 /* Colors */
 
 body {
-	color: #999;
+	color: #fff;
 }
 
 header {
@@ -199,20 +202,20 @@ h1 {
 	color: #FFFFFF;
 	text-shadow: 1px 1px 5px #000;
 }
-h2 {
+h2,h3 {
 	color: #BD4800;
 	text-shadow: 1px 1px 5px #000;
 }
 
 a {
-  color: #525B92;
+  color: #BD4800;
 }
 
-nav a, nav a:visited {
+nav a, nav a:visited, .contact-info a {
   color: #FDFDFD;
 }
 
-nav a.selected, nav a:hover {
+nav a.selected, nav a:hover ,.contact-info a:hover {
 	color: #BD4800;
 	text-shadow: 0px 0px 10px #000;
 }

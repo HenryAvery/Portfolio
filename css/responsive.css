@@ -84,7 +84,12 @@
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 960px) {
 
+#gallery li a p {
+  font-size: 0.9em;
+}
+}
 /* IE svg scaling fix */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
