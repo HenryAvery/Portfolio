@@ -98,7 +98,8 @@ nav a {
 #gallery img{ 
 	border-radius: 2%;
 	box-shadow: 1px 1px 5px #000;
-
+	max-width: 95%;
+	margin-left: 2.5%;
 }
 #gallery li {
 	float: left;
@@ -115,19 +116,21 @@ nav a {
   text-align: center;
   background-color: #ccc;
   box-shadow: 1px 1px 5px #000;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
 }
 
 #gallery li:hover .arrow{
 	border-color: #BD4800;	
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
 }
 
 .arrow {
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-bottom: 10px solid #aaa;
-	margin: -6px 0 -1px 1px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 20px solid #aaa;
+	margin: -20px 0 -1px 1px;
 }
 
 /* Footer */
