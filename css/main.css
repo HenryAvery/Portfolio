@@ -98,7 +98,6 @@ nav a {
 #gallery img{ 
 	border-top-right-radius: 2%;
   	border-top-left-radius: 2%;
-	box-shadow: 1px 1px 5px #000;
 }
 #gallery li {
 	float: left;
@@ -120,12 +119,12 @@ nav a {
 
 #gallery li:hover .arrow{
 	border-color: #BD4800;	
+	
 }
 
 .arrow {
-	border-bottom: 3px solid #555;
+	border-bottom: 2px solid transparent;
 	margin: -6px 0 -2px;
-	box-shadow: 1px 1px 5px #000;
 }
 
 /* Footer */
