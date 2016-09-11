@@ -47,7 +47,7 @@ header {
 	display: block;
 	margin: 10px auto;
 	width: 100px;
-	height: auto;
+	height: auto;	
 }
 
 h1{
@@ -96,37 +96,28 @@ nav a {
 	list-style: none;
 }
 #gallery img{ 
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #111;
   	
 }
 #gallery li {
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	box-shadow: 2px 2px 10px #000;
 	border-radius: 5px;
 }
 
 #gallery li a p {
-  margin: 2px 0 0;
-  padding: 5%;
+  padding: 2%;
+  margin: 0;
   font-size: 0.8em;
   color: #fff;
   text-align: center;
-  background-color: rgba(10, 23, 41,.4);
-  border-bottom-right-radius: 5px;
-  text-shadow: 2px 2px 5px #111;
-  border-bottom-left-radius: 5px;
+  text-shadow: 0px 3px 7px #222;
 }
 
 #gallery li:hover .arrow{
 	border-color: #BD4800;	
-}
-
-.arrow {
-	border-bottom: 2px solid rgba(5, 11, 21,.5);
-	margin: -6px 0 -2px;
 }
 
 /* Footer */
@@ -212,7 +203,7 @@ h1 {
 }
 h2,h3 {
 	color: #BD4800;
-	text-shadow: 1px 1px 5px #000;
+	text-shadow: 1px 1px 3px #000;
 }
 
 a {
@@ -225,5 +216,5 @@ nav a, nav a:visited, .contact-info a {
 
 nav a.selected, nav a:hover ,.contact-info a:hover {
 	color: #BD4800;
-	text-shadow: 0px 0px 10px #000;
+	text-shadow: 0px 3px 7px #000;
 }
