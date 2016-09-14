@@ -110,7 +110,7 @@ nav a {
   padding: 2%;
   margin: 0;
   font-size: .8em;
-  color: #d3d3d3;
+  color: #d5d5d5;
   text-align: center;
   text-shadow: 0px 3px 7px #000;
 }
@@ -125,7 +125,7 @@ footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
-	color: #FDFDFD;
+	color: #d5d5d5;
 	width: 100%;
 	margin: -70px 0 0;
 }
@@ -185,7 +185,7 @@ section{
 /* Colors */
 
 body {
-	color: #fff;
+	color: #d5d5d5;
 }
 header
  {
@@ -223,7 +223,7 @@ a {
 }
 
 nav a, nav a:visited, .contact-info a {
-  color: #FDFDFD;
+  color: #d5d5d5;
 }
 
 nav a.selected, nav a:hover ,.contact-info a:hover {
