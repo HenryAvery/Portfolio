@@ -23,12 +23,15 @@
 
 #logo img {
   float: left;
-  margin: 10px 1px 10px 30%;
+  margin: 10px 5px 10px 30%;
   padding: 0;
   max-width: 90px;
 }
 nav {
   margin: 25px 0 0;
+}
+header {
+  margin-bottom: 30px;
 }
 .profile-photo {
   float: left;
