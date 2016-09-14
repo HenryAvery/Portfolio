@@ -5,7 +5,7 @@ html, body{
 body{
 	font-family: 'Kaushan Script', cursive;
 	/* Background pattern from subtlepatterns.com */
-	background-image: url('../img/pattern.png');
+	background: #111  url('../img/pattern.png');
 }
 
 #wrapper {
