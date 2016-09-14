@@ -1,87 +1,97 @@
 
 @media screen and (min-width: 480px) {
 
-	/* Two column layout*/
+/* Two column layout*/
 
-	#primary {
-		width: 50%;
-		float: left;
-	}
+#primary {
+	width: 50%;
+	float: left;
+}
 
-	#secondary {
-		width: 40%;
-		float: right;
-	}
+#secondary {
+	width: 40%;
+	float: right;
+}
 
-	#gallery li {
-    width: 28.3333%;
-  }
-  
-  #gallery li:nth-child(4n) {
-    clear: left;
-  }
+#gallery li {
+  width: 28.3333%;
+}
 
-  #logo img {
-    float: left;
-    margin: 10px 1px 10px 30%;
-    padding: 0;
-    max-width: 90px;
-  }
+#gallery li:nth-child(4n) {
+  clear: left;
+}
 
-  .profile-photo {
-    float: left;
-    margin: 0 5% 80px 0;
-  }
+#logo img {
+  float: left;
+  margin: 10px 1px 10px 30%;
+  padding: 0;
+  max-width: 90px;
+}
+nav {
+  margin: 15px 0 0;
+.profile-photo {
+  float: left;
+  margin: 0 5% 80px 0;
+}
 
-  h1, h2 {
-    text-align: left;
+h1{
+  text-align: left;
+  margin:10px 0 0;
 
-  }
-  h2 {  
-    position: relative;
-    left: 28px;
-    max-width: 75%;
-  }
+}
+h2 {
+  text-align: left;  
+  position: relative;
+  left: 28px;
+  max-width: 75%;
+}
 }
 
 @media screen and (min-width: 660px) {
 
-	nav {
-    background: none;
-    float: right;
-    font-size: 1.125em;
-    margin: 25px 5% 0 0;
-    text-align: right;
-    width: 40%;
-  }
-  
-  #logo {
-    float: left;
-    margin-left: 5%;
-    text-align: center;
-    width: 50%;
-  }
+nav {
+  background: none;
+  float: right;
+  font-size: 1.125em;
+  margin: 25px 5% 0 0;
+  text-align: right;
+  width: 40%;
+}
 
-  #logo img {
-    margin: 8px 0 0;
-    max-width: 100px;
-    min-height: 70px;
-  }
+#logo {
+  float: left;
+  margin-left: 5%;
+  text-align: center;
+  width: 50%;
+}
 
-  h1 {
-    font-size: 2.5em;
-  }
-  
-  h2 {
-    font-size: 1.2em;
-    left: 45px;
-    margin: 10px 0 10px;
-  }
-  
-  header {
-    border-bottom: 5px solid #011221;
-    margin-bottom: 30px;
-    padding: 3px 0;
+#logo img {
+  margin: 8px 0 0;
+  max-width: 100px;
+  min-height: 70px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  left: 45px;
+  margin: 10px 0 10px;
+}
+
+header {
+  border-bottom: 5px solid #011221;
+  margin-bottom: 30px;
+  padding: 3px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#133253+0,011221+100 */
+  background: rgb(19,50,83); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(19,50,83,1) 0%, rgba(1,18,33,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(19,50,83,1) 0%,rgba(1,18,33,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(19,50,83,1) 0%,rgba(1,18,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133253', endColorstr='#011221',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   }
 }
 @media screen and (min-width: 960px) {
