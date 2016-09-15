@@ -48,6 +48,9 @@ h2 {
   left: 28px;
   max-width: 75%;
 }
+#gallery li a p {
+  font-size: .8em;
+}
 }
 
 @media screen and (min-width: 660px) {
@@ -102,9 +105,11 @@ header {
 #gallery li a p {
   font-size: 1em;
 }
- #logo {
-
-    width: 35%;
+#logo {
+  width: 35%;
+  }
+#gallery h3 {
+  font-size: 1.5em;
   }
 }
 /* IE svg scaling fix */
