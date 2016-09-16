@@ -20,7 +20,9 @@
 #gallery li:nth-child(4n) {
   clear: left;
 }
-
+#gallery h3 {
+  font-size: 1.2em;
+}
 #logo img {
   margin: 10px 5px 10px 30%;
   padding: 0;
@@ -110,6 +112,7 @@ header {
   }
 #gallery h3 {
   font-size: 1.5em;
+  letter-spacing: 1px;
   }
 }
 /* IE svg scaling fix */
