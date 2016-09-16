@@ -21,7 +21,7 @@
   clear: left;
 }
 #gallery h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 #logo img {
   margin: 10px 5px 10px 30%;
@@ -105,15 +105,18 @@ header {
 @media screen and (min-width: 960px) {
 
 #gallery li a p {
-  font-size: 1em;
+  font-size: .9em;
 }
 #logo {
   width: 35%;
   }
 #gallery h3 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   letter-spacing: 1px;
   }
+#wrapper{
+  max-width: 1200px;
+}
 }
 /* IE svg scaling fix */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {

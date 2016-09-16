@@ -117,9 +117,8 @@ nav a {
 }
 #gallery h3{
 	text-align: center;
-	padding: 0 0 2%;
+	padding: 1% 0; 
 	margin: 0;
-	text-shadow: 0px 3px 7px #000;
 	font-size: 1em;
 }
 #gallery li:hover .arrow{
