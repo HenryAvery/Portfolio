@@ -118,8 +118,3 @@ header {
   max-width: 1200px;
 }
 }
-/* IE svg scaling fix */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img[src$=".svg"] {
-    width: 100%;
-  }
