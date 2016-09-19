@@ -25,7 +25,9 @@ img {
 
 h3 {
 	margin: 0 0 1em 0;
-	font-size: 1.3em;
+	padding: 1% 0; 
+	margin: 0;
+	font-size: 1em;
 }
 p {
 	font-family: 'Montserrat', sans-serif;
@@ -52,8 +54,8 @@ header {
 }
 
 h1{
-	margin: 0;
-	padding: 5px 0 15px;
+	margin: 0 0 15px;
+	padding: 5px 0 0;
 	font-size: 1.75em;
 	font-weight: normal;
 	line-height: 0.8em;
@@ -115,11 +117,8 @@ nav a {
   text-align: center;
   text-shadow: 0px 3px 7px #000;
 }
-#gallery h3{
+#gallery h3 {
 	text-align: center;
-	padding: 1% 0; 
-	margin: 0;
-	font-size: 1em;
 }
 #gallery li:hover .arrow{
 	border-color: #BD4800;	
@@ -138,7 +137,7 @@ footer {
 footer p {
 	margin: 5px 0;
 }
-section{
+section {
 	float: left;
 	margin-top: 20px;
 }

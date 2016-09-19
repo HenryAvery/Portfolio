@@ -20,8 +20,8 @@
 #gallery li:nth-child(4n) {
   clear: left;
 }
-#gallery h3 {
-  font-size: 1.1em;
+#gallery li a p {
+  font-size: .8em;
 }
 #logo img {
   margin: 10px 5px 10px 30%;
@@ -42,7 +42,7 @@ header {
 
 h1{
   text-align: left;
-  padding: 15px 0;
+  padding: 15px 0 0;
 }
 h2 {
   text-align: left;  
@@ -50,9 +50,10 @@ h2 {
   left: 28px;
   max-width: 75%;
 }
-#gallery li a p {
-  font-size: .8em;
+h3 {
+  font-size: 1.1em;
 }
+
 }
 
 @media screen and (min-width: 660px) {
@@ -110,7 +111,7 @@ header {
 #logo {
   width: 35%;
   }
-#gallery h3 {
+h3 {
   font-size: 1.7em;
   letter-spacing: 1px;
   }
