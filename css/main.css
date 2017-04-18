@@ -32,6 +32,9 @@ h3 {
 p {
 	font-family: 'Montserrat', sans-serif;
 }
+#wrapper p {
+	text-shadow: 0px 1px 5px #000;
+}
 /* Heading */
 
 header {
@@ -115,7 +118,6 @@ nav a {
   font-size: .7em;
   color: #f7f7f7;
   text-align: center;
-  text-shadow: 0px 3px 7px #000;
 }
 #gallery h3 {
 	text-align: center;
@@ -159,7 +161,6 @@ section {
 }
 #about p {
 	margin: 5px auto 10px;
-
 }
 #about h3 {
 	text-align: center;
