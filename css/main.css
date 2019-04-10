@@ -105,6 +105,9 @@ nav a {
 	border-radius: 5px;
 	box-shadow: 2px 2px 5px #000;
 }
+#gallery li:nth-child(3n) {
+	clear: left;
+  }
 #gallery li {
 	float: left;
 	width: 45%;
